@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+a{
+    margin: 10px;
+    color: white;
+}
+
+
+.head{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 170px 80px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    background-color: #f1683e;
+    /* background-image:url(./img/pexels-photo-1450360.jpeg); */
+    width: 100%;
+}
+.hh{
+    color: white;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    /* font-size: 1.625rem; */
+    text-transform: uppercase;
+    display: inline;
+    padding-left: 100px;
+    vertical-align: middle;
+    max-width: 350px;
+    float: left;
+
+}
+
+
+
+
+
+.nav
+{
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    text-align: right;
+    display:inline;
+    padding: 15px;
+    
+}
+.p
+{
+    text-align:center;
+    padding-top: 40px;
+    
+
+}
+.c{
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    padding-top: 40px;
+    
+
+}
+.button{
+    width: 150px;
+    font-size: larger;
+    padding: 10px;
+    height: 40px;
+    border-radius:0% ;
+    border: 2px solid;
+}
+.button:hover{
+    text-transform:none;
+    background-color: rgb(172, 113, 58);
+}
+.Sthree
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    background-color: #F8F8F8;
+    height: 500px;
+    width: 100%;
+    
+
+}
+.img1
+{
+    background-image: url(https://media.istockphoto.com/id/1398462038/photo/online-exam-or-test.jpg?s=1024x1024&w=is&k=20&c=vWUnpuaoOhP--xc0MdCCiT7GyzSjW1Mk7vuegnE9Oh0=);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    color: white;
+    height: 400px;
+    width: 350px;
+    margin: 30px;
+    
+}
+.img2
+{
+    background-image: url(https://media.istockphoto.com/id/1185375000/photo/analyzing-data-and-growth-chart-healthcare-business-graph-and-medical-examination-on-laptop.jpg?s=612x612&w=0&k=20&c=-vVOwtemF2Vd54dqG6iOvbvRHyPMAw2hHb8xn08xROA=);
+    background-repeat: no-repeat;
+    background-size: 650px;
+    color: white;
+    height: 400px;
+    width: 350px;
+    margin: 30px;
+    
+    
+}
+.img3
+{
+    background-image: url(https://media.istockphoto.com/id/92259124/photo/laptop-computer-with-books-pen-and-yellow-legal-pad.jpg?s=1024x1024&w=is&k=20&c=tou6Bs5Q3BMx4op_geafzHCXlL_EWtMjjSTas-6idhE=);
+    background-repeat: no-repeat;
+    background-size: 650px;
+    color: white;
+    height: 400px;
+    width: 350px;
+    margin: 30px;
+}
+.img1,.img2,.img3:hover{
+    text-transform:none;
+    background-color: rgb(172, 113, 58);
+}
+.solution {
+    background-color: white;
+     width: 90%; 
+    height: 570px; 
+    display: flex;
+    margin: 40px;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: space-evenly;
+    
+
+
+}
+.ss{
+    width: 350px;
+    height: 390px;
+    margin: 30px;
+    margin-left: 0px;
+   
+    padding: 15px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+/* .s1{
+    background-image: url(https://images.unsplash.com/photo-1611647832580-377268dba7cb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c29sdXRpb258ZW58MHx8MHx8fDA%3D);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    
+    text-align: right;
+}
+.s2{background-image: url(https://media.istockphoto.com/id/1472447373/photo/alternative-renewable-power-sources-concept-woman-engineer-holding-illuminated-virtual-light.jpg?s=1024x1024&w=is&k=20&c=lC8seh50J2vgRd1GIr05xOZsM4VVBpcscjK3mGoFtWU=);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    text-align: right;
+
+}
+.s3{
+    background-image: url(https://media.istockphoto.com/id/2053432817/photo/asian-business-people-team-brainstorm-meeting-in-green-corporate-office-presentation-esg.jpg?s=1024x1024&w=is&k=20&c=JLeNYpzUAS9LEY1E5oQhOJU1JC7u9V8xShHgZrPe32Q=);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    text-align: right;    
+}*/
+
+.bd{
+    background-image: url(https://media.istockphoto.com/id/810137688/photo/western-cowboy-native-american-on-horseback-at-monument-valley-tribal-park.jpg?s=612x612&w=0&k=20&c=ounvvyrvmmHGHOLnZLMcZyuV2IDdUa1FZbzprqmtqB0=);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    color: white;
+
+   
+}
+.title-head{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* margin-left: 40px; */
+}
+.title1{
+    width: 415px;
+    margin-top: 220px;
+    margin-left: 70px;
+    align-items: center;
+    text-align: center;
+}
+.blog-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+    background-color:white;
+    width: 100%;
+    height: 500px;
+    justify-content: space-evenly;
+    /* margin-left: 10px; */
+    
+
+}
+.blog1{
+    background-image: url(https://media.istockphoto.com/id/1477183258/photo/woman-holding-ai-icons-with-laptop.webp?b=1&s=170667a&w=0&k=20&c=QzpARW6X0LSjBDOzNSjtyjUbwYV3uyJh3cDP_0z_-9M=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px ;
+    width: 350px;
+
+}
+.blog2{
+    background-image: url(https://media.istockphoto.com/id/1164102275/photo/laptops-on-the-desk.webp?b=1&s=170667a&w=0&k=20&c=1D18f3uccSYyGU1prdzdYa0z-AHqR8ySHN2HHuTd5s8=);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height:400px ;
+    width: 350px;
+    
+}
+.blog3{
+    background-image: url(https://media.istockphoto.com/id/905508166/photo/female-food-blogger-using-laptop-and-working-from-home.webp?b=1&s=170667a&w=0&k=20&c=FD-deY7na3gIEZGfL4KPRE3JdCS2JF_OjYTWMD2GPfM=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px ;
+    width: 350px;
+}
+.g{
+    width: 150px;
+    height: 30px;
+    border-radius: 0%;
+    border: 2px solid #09354b;    
+}
+.last-main{
+    display: flex;
+    background-color: black;
+    color: white;
+ top: 10;
+    /* color: #78787f; */
+}
+.lm1{
+    width: 350px;
+    height: 320px;
+    margin-right: 50px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 60px;
+
+}
+.lm2{
+    width: 350px;
+    height: 320px;
+    margin-right: 50px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 60px;
+
+
+}
+.lm3{
+    width: 350px;
+    height: 320px;
+    margin-right: 50px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 60px;
+}
+/* .end{
+    background: rgba(255, 255, 255, .1);
+    height: 1px;
+    width: 100%;
+    border: none;
+    margin-bottom: 0;
+}
+.o{
+    font-size: .875rem;
+    padding: 1.875em 0;
+    margin: 0;
+}
+.copy{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
